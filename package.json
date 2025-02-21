@@ -2,6 +2,23 @@
   "name": "learning-playwright",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "lucas-phillips28 <lucas.phillips@hmcts.net>",
-  "license": "MIT"
+  "license": "MIT",
+  "packageManager": "yarn@4.6.0",
+  "devDependencies": {
+    "@axe-core/playwright": "^4.10.1",
+    "@playwright/test": "^1.50.1",
+    "@types/node": "^22.13.4",
+    "playwright": "^1.50.1",
+    "typescript": "^5.7.3"
+  },
+  "scripts": {
+    "test": "playwright test",
+    "test:all": "playwright test --headed",
+    "test:chrome": "playwright test --project chromium --headed",
+    "test:firefox": "playwright test --project firefox --headed",
+    "test:msedge": "playwright test --project MicrosoftEdge --headed",
+    "test:webkit": "playwright test --project webkit --headed",
+    "test:mchrome": "playwright test --project MobileChrome --headed",
+    "test:msafari": "playwright test --project MobileSafari --headed"
+  }
 }

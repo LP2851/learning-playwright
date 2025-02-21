@@ -1,0 +1,12 @@
+package-lock.json
+yarn.lock
+
+/node_modules/
+/.yarn/
+/.idea/
+
+# Playwright
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
