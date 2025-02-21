@@ -1,0 +1,7 @@
+{
+  "name": "learning-playwright",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "lucas-phillips28 <lucas.phillips@hmcts.net>",
+  "license": "MIT"
+}
